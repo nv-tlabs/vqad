@@ -12,5 +12,5 @@ This is the official code repository for our SIGGRAPH paper:
 [Alec Jacobson](https://www.cs.toronto.edu/~jacobson/),
 [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/)
 
-<img src="media/demo.jpg" alt="drawing" height="400"/>
+<img src="media/demo.jpg" alt="drawing">
 
