@@ -1,5 +1,7 @@
 ## Variable Bitrate Neural Fields
 
+**Code is coming soon. Specifically it will be out by the SIGGRAPH conference!!**
+
 This is the official code repository for our SIGGRAPH paper: 
 
 [Variable Bitrate Neural Fields (SIGGRAPH 2022)](https://nv-tlabs.github.io/vbnf)
