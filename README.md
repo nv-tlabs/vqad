@@ -2,7 +2,7 @@
 
 **Code is coming soon. Specifically it will be out by the SIGGRAPH conference!!**
 
-This is the official code repository for [Variable Bitrate Neural Fields (SIGGRAPH 2022)](https://nv-tlabs.github.io/vbnf) which compresses feature grids for neural fields using our method, VQ-AD (vector-quantized auto-decoder).
+This is the official code repository for [Variable Bitrate Neural Fields (SIGGRAPH 2022)](https://nv-tlabs.github.io/vbnf) which compresses feature grids for neural fields using our VQ-AD (vector-quantized auto-decoder) method.
 
 This work is authored by: 
 
