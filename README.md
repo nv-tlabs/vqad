@@ -1,4 +1,4 @@
-## Variable Bitrate Neural Fields
+## Variable Bitrate Neural Fields with Vector-Quantized Auto-Decoders
 
 **Code is coming soon. Specifically it will be out by the SIGGRAPH conference!!**
 
