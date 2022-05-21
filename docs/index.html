@@ -67,8 +67,11 @@ section {
 .row, .author-row, .affil-row {
      overflow: auto;
 }
-.author-row, .affil-row {
+.author-row {
     font-size: 20px;
+}
+.affil-row {
+    font-size: 18px;
 }
 .row {
     margin: 16px 0px 16px 0px;
@@ -231,14 +234,15 @@ figure {
 ">
         <meta name="twitter:image" content="https://nv-tlabs.github.io/vbnf/assets/demo.jpg">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6HHDEXF452"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-6HHDEXF452');
-    </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DCMJB74G1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2DCMJB74G1');
+</script>
 
     </head>
 
@@ -255,15 +259,16 @@ figure {
             <div class="col-4 text-center"><a href="https://research.nvidia.com/person/jonathan-tremblay">Jonathan Tremblay</a><sup>1</sup></div>
             <div class="col-4 text-center"><a href="https://tom94.net/">Thomas Müller</a><sup>1</sup></div><br>
             <div class="col-3 text-center"><a href="https://casual-effects.com/">Morgan McGuire</a><sup>3,4</sup></div>
-            <div class="col-3 text-center"><a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a><sup>2</sup></div>
+            <div class="col-3 text-center"><a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a><sup>2,5</sup></div>
             <div class="col-3 text-center"><a href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a><sup>1,2</sup></div>
         </div>
 
         <div class="affil-row">
-            <div class="col-4 text-center"><sup>1</sup>NVIDIA</a></div>
-            <div class="col-4 text-center"><sup>2</sup>University of Toronto</div>
-            <div class="col-4 text-center"><sup>3</sup>ROBLOX</div>
-            <div class="col-4 text-center"><sup>4</sup>University of Waterloo</div>
+            <div class="col-5 text-center"><sup>1</sup>NVIDIA</a></div>
+            <div class="col-5 text-center"><sup>2</sup>University of Toronto</div>
+            <div class="col-5 text-center"><sup>3</sup>ROBLOX</div>
+            <div class="col-5 text-center"><sup>4</sup>University of Waterloo</div>
+            <div class="col-5 text-center"><sup>5</sup>Adobe Research</div>
         </div>
         <div class="affil-row">
             <div class="venue text-center"><b>ACM SIGGRAPH 2022</b></div>
@@ -271,7 +276,7 @@ figure {
 
         <div style="clear: both">
             <div class="paper-btn-parent">
-            <a class="paper-btn" href="">
+            <a class="paper-btn" href="https://drive.google.com/file/d/1GTFPwQ3oe0etRJKP35oyRhHpsydTE_AR/view">
                 <span class="material-icons"> description </span> 
                  Paper
             </a>
@@ -285,7 +290,7 @@ figure {
     <section id="teaser">
         <img width="100%" src="assets/demo.jpg">
         <p class="caption">
-            Using our vector-quantized auto-decoder (VQAD) method, 
+            Using our vector-quantized auto-decoder (VQ-AD) method, 
   we compactly encode a 3D signal in a hierarchical representation which 
   can be used for progressive streaming and level of detail (LOD). 
   Two example neural radiance fields are shown after streaming from 5 to 8 levels of their 
@@ -308,7 +313,7 @@ to be transferred before anything can be drawn.
         <hr>
         <div class="flex-row">
             <div style="box-sizing: border-box; padding: 16px; margin: auto;">
-                <a href="assets/vbnf.pdf"><img class="screenshot" src="assets/paper.jpg"></a>
+                <a href="https://drive.google.com/file/d/1GTFPwQ3oe0etRJKP35oyRhHpsydTE_AR/view"><img class="screenshot" src="assets/paper.jpg"></a>
             </div>
             <div style="width: 50%">
                 <p><b>Variable Bitrate Neural Fields</b></p>
