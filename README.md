@@ -1,6 +1,8 @@
 ## Variable Bitrate Neural Fields
 
-**Code is coming soon. Specifically it will be out by the SIGGRAPH conference!!**
+**Code is now available:** https://github.com/NVIDIAGameWorks/kaolin-wisp
+
+We will eventually populate this repository with scripts and additional code for the various small experiments. Stay tuned!
 
 This is the official code repository for [Variable Bitrate Neural Fields (SIGGRAPH 2022)](https://nv-tlabs.github.io/vqad) which compresses feature grids for neural fields using our VQ-AD (vector-quantized auto-decoder) method.
 
